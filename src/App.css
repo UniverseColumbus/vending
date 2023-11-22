@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Days+One&family=Dosis&family=Libre+Baskerville:ital@0;1&family=Neuton&family=Playfair+Display&family=Red+Hat+Display&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Apply the font to the body */
+body {
+    font-family: 'Comfortaa', sans-serif;
+    /* font-family: 'Days One', sans-serif; */
+    /* font-family: 'Dosis', sans-serif; */
+    /* font-family: 'Libre Baskerville', serif; */
+    /* font-family: 'Neuton', serif; */
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Red Hat Display', sans-serif; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+    font-family: 'Days One', sans-serif;
 }

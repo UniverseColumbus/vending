@@ -1,0 +1,130 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    line-height: 3.2em;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6em;
+    background-color: #f8f9fa;
+}
+
+section p {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+/* section li {
+    margin-left: 20px;
+} */
+
+section h2 {
+    text-align: center;
+}
+
+/* Navbar styles */
+nav {
+    background-color: #343a40;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Banner styles */
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Description styles */
+.description {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.description p {
+    margin-bottom: 10px;
+}
+
+.description ul {
+    list-style: none;
+    margin-left: 50px;
+    display: block;
+}
+
+.description ul li::before {
+    content: "\2022";
+    color: #007BFF;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.description h2 {
+    color: #007BFF;
+}
+
+/* ProductSection styles */
+.product-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-section div {
+    display: flex;
+    column-gap: 30px;
+}
+
+.product-section div p {
+    /* align-self: center; */
+}
+
+.product-section h2 {
+    color: #007BFF;
+}
+
+.product-section img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
