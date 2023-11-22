@@ -29,31 +29,11 @@ section h2 {
     text-align: center;
 }
 
-/* Navbar styles */
-nav {
-    background-color: #343a40;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
-
 /* Banner styles */
 .banner img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 /* Description styles */

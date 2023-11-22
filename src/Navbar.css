@@ -2,13 +2,18 @@
 nav {
     background: linear-gradient(to right, #ff8c00, #ff4500); /* Gradient background */
     color: #fff;
+    display: flex;
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center; /* Center items */
     padding: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    margin-bottom: 10px; /* Add some space between logo and navigation on small screens */
 }
 
 .logo img {
@@ -20,6 +25,8 @@ nav {
 ul {
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -33,4 +40,14 @@ a {
 
 a:hover {
     color: #ffd700; /* Change color on hover */
+}
+
+@media (min-width: 768px) {
+    nav {
+        flex-direction: row; /* Switch back to horizontal layout on larger screens */
+        justify-content: space-between;
+    }
+    a {
+        margin-right: 40px !important; /* Increase the right margin on larger screens */
+    }
 }

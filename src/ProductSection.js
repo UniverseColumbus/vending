@@ -6,7 +6,7 @@ const ProductSection = ({ title, image, description }) => (
     <div>
       <img src={image} alt={`${title} Vending Machine`} 
       style={{width: "20%", height: "auto"}}/>
-      <p>{description}</p>
+      {description}
       {/* Add more details as needed */}
     </div>
   </section>
