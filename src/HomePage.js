@@ -36,23 +36,25 @@ const coffeeDescription = (
 const HomePage = () => (
   <div>
     <Navbar tab="home"/>
-    <Banner />
-    <Description />
-    <ProductSection
-      title="Drinks"
-      image={popMachine}
-      description={drinkDescription}
-    />
-    <ProductSection
-      title="Snacks"
-      image={snackMachine}
-      description={snackDescription}
-    />
-    <ProductSection
-      title="Coffee"
-      image={coffeeMachine}
-      description={coffeeDescription}
-    />
+    <div className="main-content">
+      <Banner />
+      <Description />
+      <ProductSection
+        title="Drinks"
+        image={popMachine}
+        description={drinkDescription}
+      />
+      <ProductSection
+        title="Snacks"
+        image={snackMachine}
+        description={snackDescription}
+      />
+      <ProductSection
+        title="Coffee"
+        image={coffeeMachine}
+        description={coffeeDescription}
+      />
+    </div>
   </div>
 );
 

@@ -4,6 +4,11 @@ body, h1, h2, p, ul, li, form {
     padding: 0;
 }
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
 li {
     line-height: 3.2em;
 }
@@ -32,6 +37,7 @@ section h2 {
 /* Banner styles */
 .banner img {
     width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
 }
